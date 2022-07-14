@@ -7,12 +7,22 @@
 
 import SwiftUI
 
+
 @main
+
+
 struct Data_leakage_detectionApp: App {
+    
     var body: some Scene {
+        
         WindowGroup {
+            
+            
             HomeView()
+            
+            
                 .environmentObject(ContentModel())
+            
         }
     }
 }
